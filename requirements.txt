@@ -4,3 +4,5 @@ torchvision
 Pillow
 python-dotenv
 google-genai
+pandas
+altair
