@@ -1,5 +1,3 @@
-from __future__ import annotations
-
 import os
 from google import genai
 from prompts.presets import PRESET_PROMPTS
