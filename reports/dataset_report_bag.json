@@ -1,0 +1,448 @@
+{
+  "csv_path": "inventory_labels_bag.csv",
+  "image_dir": "visual_inventory_data",
+  "rows": 5000,
+  "num_classes": 9,
+  "classes": [
+    "bag",
+    "laptop",
+    "cell phone",
+    "umbrella",
+    "bottle",
+    "mouse",
+    "keyboard",
+    "book",
+    "cup"
+  ],
+  "unique_filenames": 5000,
+  "duplicate_filename_rows": 0,
+  "missing_images": 0,
+  "corrupt_images": 0,
+  "all_zero_label_rows": 0,
+  "class_distribution": {
+    "bag": {
+      "count": 1403,
+      "pct": 0.2806
+    },
+    "cup": {
+      "count": 1189,
+      "pct": 0.2378
+    },
+    "book": {
+      "count": 1157,
+      "pct": 0.2314
+    },
+    "laptop": {
+      "count": 1079,
+      "pct": 0.2158
+    },
+    "keyboard": {
+      "count": 1064,
+      "pct": 0.2128
+    },
+    "cell phone": {
+      "count": 1007,
+      "pct": 0.2014
+    },
+    "bottle": {
+      "count": 942,
+      "pct": 0.1884
+    },
+    "mouse": {
+      "count": 862,
+      "pct": 0.1724
+    },
+    "umbrella": {
+      "count": 615,
+      "pct": 0.123
+    }
+  },
+  "labels_per_image": {
+    "min": 1,
+    "mean": 1.8636,
+    "median": 2.0,
+    "max": 7,
+    "distribution": {
+      "1": {
+        "count": 2490,
+        "pct": 0.498
+      },
+      "2": {
+        "count": 1392,
+        "pct": 0.2784
+      },
+      "3": {
+        "count": 657,
+        "pct": 0.1314
+      },
+      "4": {
+        "count": 291,
+        "pct": 0.0582
+      },
+      "5": {
+        "count": 121,
+        "pct": 0.0242
+      },
+      "6": {
+        "count": 39,
+        "pct": 0.0078
+      },
+      "7": {
+        "count": 10,
+        "pct": 0.002
+      }
+    }
+  },
+  "image_dimensions": {
+    "count_opened": 5000,
+    "width": {
+      "min": 176,
+      "p25": 500,
+      "p50": 640,
+      "p75": 640,
+      "max": 640
+    },
+    "height": {
+      "min": 144,
+      "p25": 426,
+      "p50": 480,
+      "p75": 500,
+      "max": 640
+    },
+    "aspect_ratio_w_h": {
+      "min": 0.438,
+      "p25": 1.103448275862069,
+      "p50": 1.3333333333333333,
+      "p75": 1.4988290398126465,
+      "max": 4.2105263157894735
+    },
+    "under_224_any_side": 12,
+    "under_224_any_side_pct": 0.0024
+  },
+  "cooccurrence": {
+    "top_pairs": [
+      {
+        "pair": [
+          "keyboard",
+          "mouse"
+        ],
+        "count": 635,
+        "pct": 0.127
+      },
+      {
+        "pair": [
+          "keyboard",
+          "laptop"
+        ],
+        "count": 487,
+        "pct": 0.0974
+      },
+      {
+        "pair": [
+          "laptop",
+          "mouse"
+        ],
+        "count": 471,
+        "pct": 0.0942
+      },
+      {
+        "pair": [
+          "book",
+          "laptop"
+        ],
+        "count": 382,
+        "pct": 0.0764
+      },
+      {
+        "pair": [
+          "bottle",
+          "cup"
+        ],
+        "count": 348,
+        "pct": 0.0696
+      },
+      {
+        "pair": [
+          "book",
+          "keyboard"
+        ],
+        "count": 339,
+        "pct": 0.0678
+      },
+      {
+        "pair": [
+          "book",
+          "mouse"
+        ],
+        "count": 328,
+        "pct": 0.0656
+      },
+      {
+        "pair": [
+          "cup",
+          "laptop"
+        ],
+        "count": 275,
+        "pct": 0.055
+      },
+      {
+        "pair": [
+          "book",
+          "cup"
+        ],
+        "count": 271,
+        "pct": 0.0542
+      },
+      {
+        "pair": [
+          "bag",
+          "umbrella"
+        ],
+        "count": 266,
+        "pct": 0.0532
+      },
+      {
+        "pair": [
+          "cup",
+          "keyboard"
+        ],
+        "count": 256,
+        "pct": 0.0512
+      },
+      {
+        "pair": [
+          "bag",
+          "cell phone"
+        ],
+        "count": 243,
+        "pct": 0.0486
+      },
+      {
+        "pair": [
+          "cell phone",
+          "laptop"
+        ],
+        "count": 242,
+        "pct": 0.0484
+      },
+      {
+        "pair": [
+          "cup",
+          "mouse"
+        ],
+        "count": 223,
+        "pct": 0.0446
+      },
+      {
+        "pair": [
+          "cell phone",
+          "keyboard"
+        ],
+        "count": 215,
+        "pct": 0.043
+      },
+      {
+        "pair": [
+          "cell phone",
+          "cup"
+        ],
+        "count": 207,
+        "pct": 0.0414
+      },
+      {
+        "pair": [
+          "cell phone",
+          "mouse"
+        ],
+        "count": 207,
+        "pct": 0.0414
+      },
+      {
+        "pair": [
+          "book",
+          "cell phone"
+        ],
+        "count": 204,
+        "pct": 0.0408
+      },
+      {
+        "pair": [
+          "book",
+          "bottle"
+        ],
+        "count": 196,
+        "pct": 0.0392
+      },
+      {
+        "pair": [
+          "bottle",
+          "laptop"
+        ],
+        "count": 179,
+        "pct": 0.0358
+      }
+    ],
+    "rarest_nonzero_pairs": [
+      {
+        "pair": [
+          "mouse",
+          "umbrella"
+        ],
+        "count": 2,
+        "pct": 0.0004
+      },
+      {
+        "pair": [
+          "keyboard",
+          "umbrella"
+        ],
+        "count": 3,
+        "pct": 0.0006
+      },
+      {
+        "pair": [
+          "laptop",
+          "umbrella"
+        ],
+        "count": 5,
+        "pct": 0.001
+      },
+      {
+        "pair": [
+          "book",
+          "umbrella"
+        ],
+        "count": 20,
+        "pct": 0.004
+      },
+      {
+        "pair": [
+          "cup",
+          "umbrella"
+        ],
+        "count": 28,
+        "pct": 0.0056
+      },
+      {
+        "pair": [
+          "cell phone",
+          "umbrella"
+        ],
+        "count": 31,
+        "pct": 0.0062
+      },
+      {
+        "pair": [
+          "bottle",
+          "umbrella"
+        ],
+        "count": 39,
+        "pct": 0.0078
+      },
+      {
+        "pair": [
+          "bag",
+          "mouse"
+        ],
+        "count": 48,
+        "pct": 0.0096
+      },
+      {
+        "pair": [
+          "bag",
+          "keyboard"
+        ],
+        "count": 50,
+        "pct": 0.01
+      },
+      {
+        "pair": [
+          "bag",
+          "laptop"
+        ],
+        "count": 112,
+        "pct": 0.0224
+      },
+      {
+        "pair": [
+          "bottle",
+          "mouse"
+        ],
+        "count": 117,
+        "pct": 0.0234
+      },
+      {
+        "pair": [
+          "bag",
+          "cup"
+        ],
+        "count": 121,
+        "pct": 0.0242
+      },
+      {
+        "pair": [
+          "bottle",
+          "keyboard"
+        ],
+        "count": 133,
+        "pct": 0.0266
+      },
+      {
+        "pair": [
+          "bag",
+          "book"
+        ],
+        "count": 137,
+        "pct": 0.0274
+      },
+      {
+        "pair": [
+          "bag",
+          "bottle"
+        ],
+        "count": 138,
+        "pct": 0.0276
+      },
+      {
+        "pair": [
+          "bottle",
+          "cell phone"
+        ],
+        "count": 156,
+        "pct": 0.0312
+      },
+      {
+        "pair": [
+          "bottle",
+          "laptop"
+        ],
+        "count": 179,
+        "pct": 0.0358
+      },
+      {
+        "pair": [
+          "book",
+          "bottle"
+        ],
+        "count": 196,
+        "pct": 0.0392
+      },
+      {
+        "pair": [
+          "book",
+          "cell phone"
+        ],
+        "count": 204,
+        "pct": 0.0408
+      },
+      {
+        "pair": [
+          "cell phone",
+          "cup"
+        ],
+        "count": 207,
+        "pct": 0.0414
+      }
+    ]
+  }
+}

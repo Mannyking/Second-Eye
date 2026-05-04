@@ -1,0 +1,2752 @@
+[
+  {
+    "timestamp": "2026-03-29T22:42:34.582052",
+    "seed": 42,
+    "device": "cuda",
+    "train_csv_path": "../data/labels/inventory_labels_bag.csv",
+    "val_test_csv_path": null,
+    "train_image_dir": "..\\visual_inventory_data",
+    "val_test_image_dir": null,
+    "num_rows": 5000,
+    "num_classes": 9,
+    "classes": [
+      "bag",
+      "cup",
+      "book",
+      "laptop",
+      "keyboard",
+      "cell phone",
+      "bottle",
+      "mouse",
+      "umbrella"
+    ],
+    "train_size": 3991,
+    "val_size": 1009,
+    "test_size": null,
+    "valtest_split_test_size": null,
+    "batch_size": 32,
+    "epochs": 3,
+    "learning_rate": 0.001,
+    "weight_decay": 0.0001,
+    "dropout": null,
+    "num_trainable_params": null,
+    "num_frozen_params": null,
+    "trainable_param_names": null,
+    "frozen_param_names": null,
+    "train_losses": [
+      0.9444186964035034,
+      0.8387045421600342,
+      0.7895738339424133
+    ],
+    "val_losses": [
+      0.8579551186412573,
+      0.9388307239860296,
+      0.8413684666156769
+    ],
+    "best_thresholds": null,
+    "final_macro_f1": 0.5187746303499858,
+    "final_micro_f1": 0.5257527733755943,
+    "per_class_metrics": [
+      {
+        "class": "laptop",
+        "precision": 0.5808823529411765,
+        "recall": 0.7314814814814815,
+        "f1": 0.6475409836065574,
+        "support": 216
+      },
+      {
+        "class": "bag",
+        "precision": 0.476,
+        "recall": 0.8469750889679716,
+        "f1": 0.6094750320102432,
+        "support": 281
+      },
+      {
+        "class": "keyboard",
+        "precision": 0.45363408521303256,
+        "recall": 0.8497652582159625,
+        "f1": 0.5915032679738562,
+        "support": 213
+      },
+      {
+        "class": "mouse",
+        "precision": 0.3941018766756032,
+        "recall": 0.8546511627906976,
+        "f1": 0.5394495412844037,
+        "support": 172
+      },
+      {
+        "class": "book",
+        "precision": 0.4316353887399464,
+        "recall": 0.696969696969697,
+        "f1": 0.5331125827814569,
+        "support": 231
+      },
+      {
+        "class": "cup",
+        "precision": 0.4225352112676056,
+        "recall": 0.6302521008403361,
+        "f1": 0.5059021922428331,
+        "support": 238
+      },
+      {
+        "class": "umbrella",
+        "precision": 0.3488372093023256,
+        "recall": 0.8536585365853658,
+        "f1": 0.49528301886792453,
+        "support": 123
+      },
+      {
+        "class": "cell phone",
+        "precision": 0.309375,
+        "recall": 0.4925373134328358,
+        "f1": 0.3800383877159309,
+        "support": 201
+      },
+      {
+        "class": "bottle",
+        "precision": 0.3013698630136986,
+        "recall": 0.46808510638297873,
+        "f1": 0.36666666666666664,
+        "support": 188
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-03-29T22:53:13.733176",
+    "seed": 42,
+    "device": "cuda",
+    "train_csv_path": "../data/labels/inventory_labels_bag.csv",
+    "val_test_csv_path": null,
+    "train_image_dir": "..\\visual_inventory_data",
+    "val_test_image_dir": null,
+    "num_rows": 5000,
+    "num_classes": 9,
+    "classes": [
+      "bag",
+      "cup",
+      "book",
+      "laptop",
+      "keyboard",
+      "cell phone",
+      "bottle",
+      "mouse",
+      "umbrella"
+    ],
+    "train_size": 3991,
+    "val_size": 1009,
+    "test_size": null,
+    "valtest_split_test_size": null,
+    "batch_size": 32,
+    "epochs": 7,
+    "learning_rate": 0.001,
+    "weight_decay": 0.0001,
+    "dropout": null,
+    "num_trainable_params": null,
+    "num_frozen_params": null,
+    "trainable_param_names": null,
+    "frozen_param_names": null,
+    "train_losses": [
+      0.727636070728302,
+      0.6755896892547607,
+      0.6114118378162384,
+      0.543129032611847,
+      0.47972671818733215,
+      0.3804404213428497,
+      0.32192703723907473
+    ],
+    "val_losses": [
+      0.9975640196353197,
+      0.9160565994679928,
+      0.9552248232066631,
+      1.0803211173042655,
+      1.2611896768212318,
+      1.26674466393888,
+      1.6865865215659142
+    ],
+    "best_thresholds": null,
+    "final_macro_f1": 0.43799190868633736,
+    "final_micro_f1": 0.4596944770857814,
+    "per_class_metrics": [
+      {
+        "class": "bag",
+        "precision": 0.5930599369085173,
+        "recall": 0.6690391459074733,
+        "f1": 0.6287625418060201,
+        "support": 281
+      },
+      {
+        "class": "keyboard",
+        "precision": 0.4274193548387097,
+        "recall": 0.7464788732394366,
+        "f1": 0.5435897435897435,
+        "support": 213
+      },
+      {
+        "class": "laptop",
+        "precision": 0.4332344213649852,
+        "recall": 0.6759259259259259,
+        "f1": 0.5280289330922242,
+        "support": 216
+      },
+      {
+        "class": "mouse",
+        "precision": 0.3880597014925373,
+        "recall": 0.7558139534883721,
+        "f1": 0.5128205128205128,
+        "support": 172
+      },
+      {
+        "class": "book",
+        "precision": 0.325,
+        "recall": 0.6753246753246753,
+        "f1": 0.4388185654008439,
+        "support": 231
+      },
+      {
+        "class": "umbrella",
+        "precision": 0.7058823529411765,
+        "recall": 0.2926829268292683,
+        "f1": 0.41379310344827586,
+        "support": 123
+      },
+      {
+        "class": "cell phone",
+        "precision": 0.35365853658536583,
+        "recall": 0.2885572139303483,
+        "f1": 0.3178082191780822,
+        "support": 201
+      },
+      {
+        "class": "cup",
+        "precision": 0.5142857142857142,
+        "recall": 0.226890756302521,
+        "f1": 0.31486880466472306,
+        "support": 238
+      },
+      {
+        "class": "bottle",
+        "precision": 0.22077922077922077,
+        "recall": 0.2712765957446808,
+        "f1": 0.24343675417661098,
+        "support": 188
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-03-30T13:36:29.291232",
+    "seed": 42,
+    "device": "cuda",
+    "train_csv_path": "../data/labels/inventory_labels_bag.csv",
+    "val_test_csv_path": null,
+    "train_image_dir": "..\\visual_inventory_data",
+    "val_test_image_dir": null,
+    "num_rows": 5000,
+    "num_classes": 9,
+    "classes": [
+      "bag",
+      "cup",
+      "book",
+      "laptop",
+      "keyboard",
+      "cell phone",
+      "bottle",
+      "mouse",
+      "umbrella"
+    ],
+    "train_size": 3991,
+    "val_size": 1009,
+    "test_size": null,
+    "valtest_split_test_size": null,
+    "batch_size": 32,
+    "epochs": 2,
+    "learning_rate": 0.0003,
+    "weight_decay": 0.001,
+    "dropout": null,
+    "num_trainable_params": null,
+    "num_frozen_params": null,
+    "trainable_param_names": null,
+    "frozen_param_names": null,
+    "train_losses": [
+      0.8134282822608948,
+      0.5771218514442444
+    ],
+    "val_losses": [
+      0.7484556240960956,
+      0.902347132563591
+    ],
+    "best_thresholds": null,
+    "final_macro_f1": 0.5670785949770748,
+    "final_micro_f1": 0.553713670613563,
+    "per_class_metrics": [
+      {
+        "class": "keyboard",
+        "precision": 0.5636942675159236,
+        "recall": 0.8309859154929577,
+        "f1": 0.6717267552182163,
+        "support": 213
+      },
+      {
+        "class": "umbrella",
+        "precision": 0.6137931034482759,
+        "recall": 0.7235772357723578,
+        "f1": 0.664179104477612,
+        "support": 123
+      },
+      {
+        "class": "mouse",
+        "precision": 0.5953488372093023,
+        "recall": 0.7441860465116279,
+        "f1": 0.661498708010336,
+        "support": 172
+      },
+      {
+        "class": "bag",
+        "precision": 0.6556776556776557,
+        "recall": 0.6370106761565836,
+        "f1": 0.6462093862815884,
+        "support": 281
+      },
+      {
+        "class": "laptop",
+        "precision": 0.7758620689655172,
+        "recall": 0.4166666666666667,
+        "f1": 0.5421686746987951,
+        "support": 216
+      },
+      {
+        "class": "cup",
+        "precision": 0.3848987108655617,
+        "recall": 0.8781512605042017,
+        "f1": 0.5352112676056338,
+        "support": 238
+      },
+      {
+        "class": "book",
+        "precision": 0.4140625,
+        "recall": 0.6883116883116883,
+        "f1": 0.5170731707317073,
+        "support": 231
+      },
+      {
+        "class": "bottle",
+        "precision": 0.33967391304347827,
+        "recall": 0.6648936170212766,
+        "f1": 0.44964028776978415,
+        "support": 188
+      },
+      {
+        "class": "cell phone",
+        "precision": 0.30660377358490565,
+        "recall": 0.6467661691542289,
+        "f1": 0.416,
+        "support": 201
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-03-30T13:39:13.359481",
+    "seed": 42,
+    "device": "cuda",
+    "train_csv_path": "../data/labels/inventory_labels_bag.csv",
+    "val_test_csv_path": null,
+    "train_image_dir": "..\\visual_inventory_data",
+    "val_test_image_dir": null,
+    "num_rows": 5000,
+    "num_classes": 9,
+    "classes": [
+      "bag",
+      "cup",
+      "book",
+      "laptop",
+      "keyboard",
+      "cell phone",
+      "bottle",
+      "mouse",
+      "umbrella"
+    ],
+    "train_size": 3991,
+    "val_size": 1009,
+    "test_size": null,
+    "valtest_split_test_size": null,
+    "batch_size": 32,
+    "epochs": 2,
+    "learning_rate": 3e-05,
+    "weight_decay": 0.001,
+    "dropout": null,
+    "num_trainable_params": null,
+    "num_frozen_params": null,
+    "trainable_param_names": null,
+    "frozen_param_names": null,
+    "train_losses": [
+      0.7437666144371032,
+      0.43176131272315976
+    ],
+    "val_losses": [
+      0.7236050767824054,
+      0.7172025600448251
+    ],
+    "best_thresholds": null,
+    "final_macro_f1": 0.6208822334041498,
+    "final_micro_f1": 0.6176269642450467,
+    "per_class_metrics": [
+      {
+        "class": "keyboard",
+        "precision": 0.6564885496183206,
+        "recall": 0.8075117370892019,
+        "f1": 0.7242105263157895,
+        "support": 213
+      },
+      {
+        "class": "laptop",
+        "precision": 0.6336996336996337,
+        "recall": 0.8009259259259259,
+        "f1": 0.7075664621676891,
+        "support": 216
+      },
+      {
+        "class": "mouse",
+        "precision": 0.6272727272727273,
+        "recall": 0.8023255813953488,
+        "f1": 0.7040816326530612,
+        "support": 172
+      },
+      {
+        "class": "bag",
+        "precision": 0.587467362924282,
+        "recall": 0.800711743772242,
+        "f1": 0.677710843373494,
+        "support": 281
+      },
+      {
+        "class": "umbrella",
+        "precision": 0.5679012345679012,
+        "recall": 0.7479674796747967,
+        "f1": 0.6456140350877193,
+        "support": 123
+      },
+      {
+        "class": "cup",
+        "precision": 0.5284810126582279,
+        "recall": 0.7016806722689075,
+        "f1": 0.6028880866425993,
+        "support": 238
+      },
+      {
+        "class": "book",
+        "precision": 0.5409252669039146,
+        "recall": 0.658008658008658,
+        "f1": 0.59375,
+        "support": 231
+      },
+      {
+        "class": "bottle",
+        "precision": 0.4020979020979021,
+        "recall": 0.6117021276595744,
+        "f1": 0.48523206751054854,
+        "support": 188
+      },
+      {
+        "class": "cell phone",
+        "precision": 0.3536231884057971,
+        "recall": 0.6069651741293532,
+        "f1": 0.4468864468864469,
+        "support": 201
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-03-30T13:41:59.207116",
+    "seed": 42,
+    "device": "cuda",
+    "train_csv_path": "../data/labels/inventory_labels_bag.csv",
+    "val_test_csv_path": null,
+    "train_image_dir": "..\\visual_inventory_data",
+    "val_test_image_dir": null,
+    "num_rows": 5000,
+    "num_classes": 9,
+    "classes": [
+      "bag",
+      "cup",
+      "book",
+      "laptop",
+      "keyboard",
+      "cell phone",
+      "bottle",
+      "mouse",
+      "umbrella"
+    ],
+    "train_size": 3991,
+    "val_size": 1009,
+    "test_size": null,
+    "valtest_split_test_size": null,
+    "batch_size": 32,
+    "epochs": 1,
+    "learning_rate": 1e-06,
+    "weight_decay": 0.001,
+    "dropout": null,
+    "num_trainable_params": null,
+    "num_frozen_params": null,
+    "trainable_param_names": null,
+    "frozen_param_names": null,
+    "train_losses": [
+      1.18031160736084
+    ],
+    "val_losses": [
+      1.124918807297945
+    ],
+    "best_thresholds": null,
+    "final_macro_f1": 0.3136979132088981,
+    "final_micro_f1": 0.332420591456736,
+    "per_class_metrics": [
+      {
+        "class": "book",
+        "precision": 0.30520393811533053,
+        "recall": 0.9393939393939394,
+        "f1": 0.4607218683651805,
+        "support": 231
+      },
+      {
+        "class": "bag",
+        "precision": 0.28817204301075267,
+        "recall": 0.9537366548042705,
+        "f1": 0.4426094137076796,
+        "support": 281
+      },
+      {
+        "class": "keyboard",
+        "precision": 0.40271493212669685,
+        "recall": 0.41784037558685444,
+        "f1": 0.41013824884792627,
+        "support": 213
+      },
+      {
+        "class": "laptop",
+        "precision": 0.2400932400932401,
+        "recall": 0.9537037037037037,
+        "f1": 0.38361266294227186,
+        "support": 216
+      },
+      {
+        "class": "bottle",
+        "precision": 0.19770408163265307,
+        "recall": 0.824468085106383,
+        "f1": 0.31893004115226337,
+        "support": 188
+      },
+      {
+        "class": "mouse",
+        "precision": 0.1625615763546798,
+        "recall": 0.5755813953488372,
+        "f1": 0.2535211267605634,
+        "support": 172
+      },
+      {
+        "class": "umbrella",
+        "precision": 0.14556962025316456,
+        "recall": 0.7479674796747967,
+        "f1": 0.24370860927152319,
+        "support": 123
+      },
+      {
+        "class": "cell phone",
+        "precision": 0.16076294277929154,
+        "recall": 0.2935323383084577,
+        "f1": 0.20774647887323944,
+        "support": 201
+      },
+      {
+        "class": "cup",
+        "precision": 0.08814589665653495,
+        "recall": 0.12184873949579832,
+        "f1": 0.10229276895943562,
+        "support": 238
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-03-30T13:44:49.127553",
+    "seed": 42,
+    "device": "cuda",
+    "train_csv_path": "../data/labels/inventory_labels_bag.csv",
+    "val_test_csv_path": null,
+    "train_image_dir": "..\\visual_inventory_data",
+    "val_test_image_dir": null,
+    "num_rows": 5000,
+    "num_classes": 9,
+    "classes": [
+      "bag",
+      "cup",
+      "book",
+      "laptop",
+      "keyboard",
+      "cell phone",
+      "bottle",
+      "mouse",
+      "umbrella"
+    ],
+    "train_size": 3991,
+    "val_size": 1009,
+    "test_size": null,
+    "valtest_split_test_size": null,
+    "batch_size": 32,
+    "epochs": 3,
+    "learning_rate": 1e-06,
+    "weight_decay": 0.001,
+    "dropout": null,
+    "num_trainable_params": null,
+    "num_frozen_params": null,
+    "trainable_param_names": null,
+    "frozen_param_names": null,
+    "train_losses": [
+      1.0914562640190124,
+      1.0149300045967102,
+      0.9487224731445313
+    ],
+    "val_losses": [
+      1.067313738167286,
+      1.016964826732874,
+      0.9758792351931334
+    ],
+    "best_thresholds": null,
+    "final_macro_f1": 0.42862966931213875,
+    "final_micro_f1": 0.4264062955406587,
+    "per_class_metrics": [
+      {
+        "class": "keyboard",
+        "precision": 0.6037037037037037,
+        "recall": 0.7652582159624414,
+        "f1": 0.6749482401656315,
+        "support": 213
+      },
+      {
+        "class": "book",
+        "precision": 0.3377049180327869,
+        "recall": 0.8917748917748918,
+        "f1": 0.48989298454221164,
+        "support": 231
+      },
+      {
+        "class": "bag",
+        "precision": 0.30957943925233644,
+        "recall": 0.9430604982206405,
+        "f1": 0.46613896218117856,
+        "support": 281
+      },
+      {
+        "class": "mouse",
+        "precision": 0.31137724550898205,
+        "recall": 0.9069767441860465,
+        "f1": 0.4635958395245171,
+        "support": 172
+      },
+      {
+        "class": "laptop",
+        "precision": 0.30303030303030304,
+        "recall": 0.9722222222222222,
+        "f1": 0.46204620462046203,
+        "support": 216
+      },
+      {
+        "class": "bottle",
+        "precision": 0.22088353413654618,
+        "recall": 0.8776595744680851,
+        "f1": 0.35294117647058826,
+        "support": 188
+      },
+      {
+        "class": "cup",
+        "precision": 0.2785923753665689,
+        "recall": 0.39915966386554624,
+        "f1": 0.3281519861830743,
+        "support": 238
+      },
+      {
+        "class": "umbrella",
+        "precision": 0.1972318339100346,
+        "recall": 0.926829268292683,
+        "f1": 0.3252496433666191,
+        "support": 123
+      },
+      {
+        "class": "cell phone",
+        "precision": 0.22084367245657568,
+        "recall": 0.4427860696517413,
+        "f1": 0.2947019867549669,
+        "support": 201
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-03-30T13:51:47.767685",
+    "seed": 42,
+    "device": "cuda",
+    "train_csv_path": "../data/labels/inventory_labels_bag.csv",
+    "val_test_csv_path": null,
+    "train_image_dir": "..\\visual_inventory_data",
+    "val_test_image_dir": null,
+    "num_rows": 5000,
+    "num_classes": 9,
+    "classes": [
+      "bag",
+      "cup",
+      "book",
+      "laptop",
+      "keyboard",
+      "cell phone",
+      "bottle",
+      "mouse",
+      "umbrella"
+    ],
+    "train_size": 3991,
+    "val_size": 1009,
+    "test_size": null,
+    "valtest_split_test_size": null,
+    "batch_size": 32,
+    "epochs": 7,
+    "learning_rate": 1e-06,
+    "weight_decay": 0.001,
+    "dropout": null,
+    "num_trainable_params": null,
+    "num_frozen_params": null,
+    "trainable_param_names": null,
+    "frozen_param_names": null,
+    "train_losses": [
+      0.8922870864868164,
+      0.8428148312568664,
+      0.8001533575057983,
+      0.7598063769340515,
+      0.7266380205154419,
+      0.6975327372550965,
+      0.6687105584144593
+    ],
+    "val_losses": [
+      0.9405140746384859,
+      0.9095811061561108,
+      0.8836002200841904,
+      0.8618959337472916,
+      0.8424134720116854,
+      0.824690306559205,
+      0.8100413288921118
+    ],
+    "best_thresholds": null,
+    "final_macro_f1": 0.5616256597496236,
+    "final_micro_f1": 0.5597219681726724,
+    "per_class_metrics": [
+      {
+        "class": "keyboard",
+        "precision": 0.6127946127946128,
+        "recall": 0.8544600938967136,
+        "f1": 0.7137254901960784,
+        "support": 213
+      },
+      {
+        "class": "bag",
+        "precision": 0.48046875,
+        "recall": 0.8754448398576512,
+        "f1": 0.6204287515762925,
+        "support": 281
+      },
+      {
+        "class": "mouse",
+        "precision": 0.46153846153846156,
+        "recall": 0.9069767441860465,
+        "f1": 0.611764705882353,
+        "support": 172
+      },
+      {
+        "class": "laptop",
+        "precision": 0.4533029612756264,
+        "recall": 0.9212962962962963,
+        "f1": 0.6076335877862595,
+        "support": 216
+      },
+      {
+        "class": "cup",
+        "precision": 0.4540682414698163,
+        "recall": 0.726890756302521,
+        "f1": 0.5589660743134087,
+        "support": 238
+      },
+      {
+        "class": "umbrella",
+        "precision": 0.375,
+        "recall": 0.926829268292683,
+        "f1": 0.5339578454332553,
+        "support": 123
+      },
+      {
+        "class": "book",
+        "precision": 0.390495867768595,
+        "recall": 0.8181818181818182,
+        "f1": 0.5286713286713287,
+        "support": 231
+      },
+      {
+        "class": "cell phone",
+        "precision": 0.3630952380952381,
+        "recall": 0.6069651741293532,
+        "f1": 0.4543761638733706,
+        "support": 201
+      },
+      {
+        "class": "bottle",
+        "precision": 0.290448343079922,
+        "recall": 0.7925531914893617,
+        "f1": 0.42510699001426533,
+        "support": 188
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-03-30T20:03:33.472650",
+    "seed": 42,
+    "device": "cuda",
+    "train_csv_path": "../data/labels/inventory_labels_bag.csv",
+    "val_test_csv_path": null,
+    "train_image_dir": "..\\visual_inventory_data",
+    "val_test_image_dir": null,
+    "num_rows": 5000,
+    "num_classes": 9,
+    "classes": [
+      "bag",
+      "cup",
+      "book",
+      "laptop",
+      "keyboard",
+      "cell phone",
+      "bottle",
+      "mouse",
+      "umbrella"
+    ],
+    "train_size": 3991,
+    "val_size": 1009,
+    "test_size": null,
+    "valtest_split_test_size": null,
+    "batch_size": 32,
+    "epochs": 10,
+    "learning_rate": 0.0001,
+    "weight_decay": 0.001,
+    "dropout": null,
+    "num_trainable_params": null,
+    "num_frozen_params": null,
+    "trainable_param_names": null,
+    "frozen_param_names": null,
+    "train_losses": [
+      0.8660068073272705,
+      0.8400326805114746,
+      0.8218072628974915,
+      0.8069420309066773,
+      0.7959068093299866,
+      0.7827775473594666,
+      0.7757336683273316,
+      0.7691584477424621,
+      0.7635204343795776,
+      0.7580644192695618
+    ],
+    "val_losses": [
+      0.8397887591272593,
+      0.8187698014080524,
+      0.8035303112119436,
+      0.7897849148139358,
+      0.7801080122590065,
+      0.7727660844102502,
+      0.7688711946830153,
+      0.7601315183565021,
+      0.7556965025141835,
+      0.7537843212485313
+    ],
+    "best_thresholds": null,
+    "final_macro_f1": 0.5724794704251828,
+    "final_micro_f1": 0.5694180296690757,
+    "per_class_metrics": [
+      {
+        "class": "bag",
+        "precision": 0.5815217391304348,
+        "recall": 0.7615658362989324,
+        "f1": 0.6594761171032357,
+        "support": 281
+      },
+      {
+        "class": "keyboard",
+        "precision": 0.5352941176470588,
+        "recall": 0.8544600938967136,
+        "f1": 0.6582278481012658,
+        "support": 213
+      },
+      {
+        "class": "laptop",
+        "precision": 0.5013404825737265,
+        "recall": 0.8657407407407407,
+        "f1": 0.634974533106961,
+        "support": 216
+      },
+      {
+        "class": "mouse",
+        "precision": 0.4867549668874172,
+        "recall": 0.8546511627906976,
+        "f1": 0.620253164556962,
+        "support": 172
+      },
+      {
+        "class": "cup",
+        "precision": 0.4730392156862745,
+        "recall": 0.8109243697478992,
+        "f1": 0.5975232198142415,
+        "support": 238
+      },
+      {
+        "class": "umbrella",
+        "precision": 0.41603053435114506,
+        "recall": 0.8861788617886179,
+        "f1": 0.5662337662337662,
+        "support": 123
+      },
+      {
+        "class": "book",
+        "precision": 0.40217391304347827,
+        "recall": 0.8008658008658008,
+        "f1": 0.5354558610709117,
+        "support": 231
+      },
+      {
+        "class": "cell phone",
+        "precision": 0.3232758620689655,
+        "recall": 0.746268656716418,
+        "f1": 0.45112781954887216,
+        "support": 201
+      },
+      {
+        "class": "bottle",
+        "precision": 0.31100478468899523,
+        "recall": 0.6914893617021277,
+        "f1": 0.429042904290429,
+        "support": 188
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-04-05T21:52:35.998825",
+    "seed": 42,
+    "device": "cuda",
+    "train_csv_path": "../data/labels/inventory_labels_bag.csv",
+    "val_test_csv_path": null,
+    "train_image_dir": "..\\visual_inventory_data",
+    "val_test_image_dir": null,
+    "num_rows": 5000,
+    "num_classes": 9,
+    "classes": [
+      "bag",
+      "cup",
+      "book",
+      "laptop",
+      "keyboard",
+      "cell phone",
+      "bottle",
+      "mouse",
+      "umbrella"
+    ],
+    "train_size": 3991,
+    "val_size": 1009,
+    "test_size": null,
+    "valtest_split_test_size": null,
+    "batch_size": 32,
+    "epochs": 15,
+    "learning_rate": 0.0001,
+    "weight_decay": 0.001,
+    "dropout": null,
+    "num_trainable_params": null,
+    "num_frozen_params": null,
+    "trainable_param_names": null,
+    "frozen_param_names": null,
+    "train_losses": [
+      1.0760830960273742,
+      0.9721109819412231,
+      0.9096951169967651,
+      0.8707416200637818,
+      0.845703962802887,
+      0.82327015209198,
+      0.8103819823265076,
+      0.7967693066596985,
+      0.7875649604797363,
+      0.779499888420105,
+      0.775124349117279,
+      0.7688259372711181,
+      0.760591926574707,
+      0.7573699793815613,
+      0.7502253465652465
+    ],
+    "val_losses": [
+      1.0049847345799208,
+      0.923444040119648,
+      0.8755814246833324,
+      0.8420083187520504,
+      0.8218976408243179,
+      0.8035279158502817,
+      0.7924569165334105,
+      0.7821415485814214,
+      0.776456437073648,
+      0.7689301567152143,
+      0.7620903952047229,
+      0.7589320689439774,
+      0.7569458717480302,
+      0.7505256673321128,
+      0.7491725655272603
+    ],
+    "best_thresholds": null,
+    "final_macro_f1": 0.5783001416509763,
+    "final_micro_f1": 0.5761653988687342,
+    "per_class_metrics": [
+      {
+        "class": "keyboard",
+        "precision": 0.5746031746031746,
+        "recall": 0.8497652582159625,
+        "f1": 0.6856060606060606,
+        "support": 213
+      },
+      {
+        "class": "bag",
+        "precision": 0.5837988826815642,
+        "recall": 0.7437722419928826,
+        "f1": 0.6541471048513302,
+        "support": 281
+      },
+      {
+        "class": "mouse",
+        "precision": 0.49019607843137253,
+        "recall": 0.872093023255814,
+        "f1": 0.6276150627615062,
+        "support": 172
+      },
+      {
+        "class": "laptop",
+        "precision": 0.4986225895316804,
+        "recall": 0.8379629629629629,
+        "f1": 0.6252158894645942,
+        "support": 216
+      },
+      {
+        "class": "umbrella",
+        "precision": 0.42745098039215684,
+        "recall": 0.8861788617886179,
+        "f1": 0.5767195767195767,
+        "support": 123
+      },
+      {
+        "class": "cup",
+        "precision": 0.4291845493562232,
+        "recall": 0.8403361344537815,
+        "f1": 0.5681818181818182,
+        "support": 238
+      },
+      {
+        "class": "book",
+        "precision": 0.42995169082125606,
+        "recall": 0.7705627705627706,
+        "f1": 0.5519379844961241,
+        "support": 231
+      },
+      {
+        "class": "cell phone",
+        "precision": 0.35733333333333334,
+        "recall": 0.6666666666666666,
+        "f1": 0.4652777777777778,
+        "support": 201
+      },
+      {
+        "class": "bottle",
+        "precision": 0.3276699029126214,
+        "recall": 0.7180851063829787,
+        "f1": 0.45,
+        "support": 188
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-04-10T00:59:13.998427",
+    "seed": 42,
+    "device": "cuda",
+    "train_csv_path": "../data/labels/inventory_labels_bag.csv",
+    "val_test_csv_path": null,
+    "train_image_dir": "..\\visual_inventory_data",
+    "val_test_image_dir": null,
+    "num_rows": 5000,
+    "num_classes": 9,
+    "classes": [
+      "bag",
+      "cup",
+      "book",
+      "laptop",
+      "keyboard",
+      "cell phone",
+      "bottle",
+      "mouse",
+      "umbrella"
+    ],
+    "train_size": 3991,
+    "val_size": 1009,
+    "test_size": null,
+    "valtest_split_test_size": null,
+    "batch_size": 32,
+    "epochs": 15,
+    "learning_rate": 0.0001,
+    "weight_decay": 0.001,
+    "dropout": null,
+    "num_trainable_params": null,
+    "num_frozen_params": null,
+    "trainable_param_names": null,
+    "frozen_param_names": null,
+    "train_losses": [
+      1.0760830960273742,
+      0.9721109819412231,
+      0.9096951169967651,
+      0.8707416200637818,
+      0.845703962802887,
+      0.82327015209198,
+      0.8103819823265076,
+      0.7967693066596985,
+      0.7875649604797363,
+      0.779499888420105,
+      0.775124349117279,
+      0.7688259372711181,
+      0.760591926574707,
+      0.7573699793815613,
+      0.7502253465652465
+    ],
+    "val_losses": [
+      1.0049847345799208,
+      0.923444040119648,
+      0.8755814246833324,
+      0.8420083187520504,
+      0.8218976408243179,
+      0.8035279158502817,
+      0.7924569165334105,
+      0.7821415485814214,
+      0.776456437073648,
+      0.7689301567152143,
+      0.7620903952047229,
+      0.7589320689439774,
+      0.7569458717480302,
+      0.7505256673321128,
+      0.7491725655272603
+    ],
+    "best_thresholds": null,
+    "final_macro_f1": 0.5783001416509763,
+    "final_micro_f1": 0.5761653988687342,
+    "per_class_metrics": [
+      {
+        "class": "keyboard",
+        "precision": 0.5746031746031746,
+        "recall": 0.8497652582159625,
+        "f1": 0.6856060606060606,
+        "support": 213
+      },
+      {
+        "class": "bag",
+        "precision": 0.5837988826815642,
+        "recall": 0.7437722419928826,
+        "f1": 0.6541471048513302,
+        "support": 281
+      },
+      {
+        "class": "mouse",
+        "precision": 0.49019607843137253,
+        "recall": 0.872093023255814,
+        "f1": 0.6276150627615062,
+        "support": 172
+      },
+      {
+        "class": "laptop",
+        "precision": 0.4986225895316804,
+        "recall": 0.8379629629629629,
+        "f1": 0.6252158894645942,
+        "support": 216
+      },
+      {
+        "class": "umbrella",
+        "precision": 0.42745098039215684,
+        "recall": 0.8861788617886179,
+        "f1": 0.5767195767195767,
+        "support": 123
+      },
+      {
+        "class": "cup",
+        "precision": 0.4291845493562232,
+        "recall": 0.8403361344537815,
+        "f1": 0.5681818181818182,
+        "support": 238
+      },
+      {
+        "class": "book",
+        "precision": 0.42995169082125606,
+        "recall": 0.7705627705627706,
+        "f1": 0.5519379844961241,
+        "support": 231
+      },
+      {
+        "class": "cell phone",
+        "precision": 0.35733333333333334,
+        "recall": 0.6666666666666666,
+        "f1": 0.4652777777777778,
+        "support": 201
+      },
+      {
+        "class": "bottle",
+        "precision": 0.3276699029126214,
+        "recall": 0.7180851063829787,
+        "f1": 0.45,
+        "support": 188
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-04-13T00:25:11.727738",
+    "seed": 42,
+    "device": "cuda",
+    "train_csv_path": "../data/labels/inventory_labels_bag.csv",
+    "val_test_csv_path": null,
+    "train_image_dir": "..\\visual_inventory_data",
+    "val_test_image_dir": null,
+    "num_rows": 5000,
+    "num_classes": 9,
+    "classes": [
+      "bag",
+      "cup",
+      "book",
+      "laptop",
+      "keyboard",
+      "cell phone",
+      "bottle",
+      "mouse",
+      "umbrella"
+    ],
+    "train_size": 3991,
+    "val_size": 1009,
+    "test_size": null,
+    "valtest_split_test_size": null,
+    "batch_size": 32,
+    "epochs": 15,
+    "learning_rate": 0.0001,
+    "weight_decay": 0.001,
+    "dropout": null,
+    "num_trainable_params": null,
+    "num_frozen_params": null,
+    "trainable_param_names": null,
+    "frozen_param_names": null,
+    "train_losses": [
+      1.0760830960273742,
+      0.9721109819412231,
+      0.9096951169967651,
+      0.8707416200637818,
+      0.845703962802887,
+      0.82327015209198,
+      0.8103819823265076,
+      0.7967693066596985,
+      0.7875649604797363,
+      0.779499888420105,
+      0.775124349117279,
+      0.7688259372711181,
+      0.760591926574707,
+      0.7573699793815613,
+      0.7502253465652465
+    ],
+    "val_losses": [
+      1.0049847345799208,
+      0.923444040119648,
+      0.8755814246833324,
+      0.8420083187520504,
+      0.8218976408243179,
+      0.8035279158502817,
+      0.7924569165334105,
+      0.7821415485814214,
+      0.776456437073648,
+      0.7689301567152143,
+      0.7620903952047229,
+      0.7589320689439774,
+      0.7569458717480302,
+      0.7505256673321128,
+      0.7491725655272603
+    ],
+    "best_thresholds": null,
+    "final_macro_f1": 0.5783001416509763,
+    "final_micro_f1": 0.5761653988687342,
+    "per_class_metrics": [
+      {
+        "class": "keyboard",
+        "precision": 0.5746031746031746,
+        "recall": 0.8497652582159625,
+        "f1": 0.6856060606060606,
+        "support": 213
+      },
+      {
+        "class": "bag",
+        "precision": 0.5837988826815642,
+        "recall": 0.7437722419928826,
+        "f1": 0.6541471048513302,
+        "support": 281
+      },
+      {
+        "class": "mouse",
+        "precision": 0.49019607843137253,
+        "recall": 0.872093023255814,
+        "f1": 0.6276150627615062,
+        "support": 172
+      },
+      {
+        "class": "laptop",
+        "precision": 0.4986225895316804,
+        "recall": 0.8379629629629629,
+        "f1": 0.6252158894645942,
+        "support": 216
+      },
+      {
+        "class": "umbrella",
+        "precision": 0.42745098039215684,
+        "recall": 0.8861788617886179,
+        "f1": 0.5767195767195767,
+        "support": 123
+      },
+      {
+        "class": "cup",
+        "precision": 0.4291845493562232,
+        "recall": 0.8403361344537815,
+        "f1": 0.5681818181818182,
+        "support": 238
+      },
+      {
+        "class": "book",
+        "precision": 0.42995169082125606,
+        "recall": 0.7705627705627706,
+        "f1": 0.5519379844961241,
+        "support": 231
+      },
+      {
+        "class": "cell phone",
+        "precision": 0.35733333333333334,
+        "recall": 0.6666666666666666,
+        "f1": 0.4652777777777778,
+        "support": 201
+      },
+      {
+        "class": "bottle",
+        "precision": 0.3276699029126214,
+        "recall": 0.7180851063829787,
+        "f1": 0.45,
+        "support": 188
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-04-13T10:55:09.598264",
+    "seed": 42,
+    "device": "cuda",
+    "train_csv_path": "../data/labels/inventory_labels_bag.csv",
+    "val_test_csv_path": "../data/labels/inventory_labels_test_bag.csv",
+    "train_image_dir": "..\\visual_inventory_data",
+    "val_test_image_dir": "..\\visual_inventory_data_test",
+    "num_rows": 5000,
+    "num_classes": 9,
+    "classes": [
+      "bag",
+      "cup",
+      "book",
+      "laptop",
+      "keyboard",
+      "cell phone",
+      "bottle",
+      "mouse",
+      "umbrella"
+    ],
+    "train_size": 3991,
+    "val_size": 1009,
+    "test_size": null,
+    "valtest_split_test_size": null,
+    "batch_size": 32,
+    "epochs": 10,
+    "learning_rate": 0.0001,
+    "weight_decay": 0.001,
+    "dropout": null,
+    "num_trainable_params": null,
+    "num_frozen_params": null,
+    "trainable_param_names": null,
+    "frozen_param_names": null,
+    "train_losses": [
+      1.0950545358657837,
+      1.0201550087928772,
+      0.9675248951911927,
+      0.9317144827842713,
+      0.9048471164703369,
+      0.8868005495071412,
+      0.8690741686820984,
+      0.8593416957855224,
+      0.8519890055656433,
+      0.842887183189392
+    ],
+    "val_losses": [
+      1.0391799956560135,
+      0.9794429801404476,
+      0.9353246353566647,
+      0.9019029326736927,
+      0.8736581355333328,
+      0.8630350977182388,
+      0.848846135661006,
+      0.8376938523724675,
+      0.8374295383691788,
+      0.8186533069238067
+    ],
+    "best_thresholds": null,
+    "final_macro_f1": 0.49136399329215347,
+    "final_micro_f1": 0.5177144580129655,
+    "per_class_metrics": [
+      {
+        "class": "bag",
+        "precision": 0.6261180679785331,
+        "recall": 0.8027522935779816,
+        "f1": 0.7035175879396985,
+        "support": 436
+      },
+      {
+        "class": "cup",
+        "precision": 0.4894578313253012,
+        "recall": 0.8333333333333334,
+        "f1": 0.6166982922201139,
+        "support": 390
+      },
+      {
+        "class": "bottle",
+        "precision": 0.4239766081871345,
+        "recall": 0.7651715039577837,
+        "f1": 0.5456255879586077,
+        "support": 379
+      },
+      {
+        "class": "laptop",
+        "precision": 0.3779527559055118,
+        "recall": 0.7868852459016393,
+        "f1": 0.5106382978723404,
+        "support": 183
+      },
+      {
+        "class": "umbrella",
+        "precision": 0.3414043583535109,
+        "recall": 0.8103448275862069,
+        "f1": 0.4804088586030664,
+        "support": 174
+      },
+      {
+        "class": "book",
+        "precision": 0.29273084479371314,
+        "recall": 0.7129186602870813,
+        "f1": 0.415041782729805,
+        "support": 209
+      },
+      {
+        "class": "keyboard",
+        "precision": 0.24873096446700507,
+        "recall": 0.9245283018867925,
+        "f1": 0.392,
+        "support": 106
+      },
+      {
+        "class": "cell phone",
+        "precision": 0.2796780684104628,
+        "recall": 0.6495327102803738,
+        "f1": 0.3909985935302391,
+        "support": 214
+      },
+      {
+        "class": "mouse",
+        "precision": 0.22946175637393768,
+        "recall": 0.9204545454545454,
+        "f1": 0.3673469387755102,
+        "support": 88
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-04-13T11:21:12.860416",
+    "seed": 42,
+    "device": "cuda",
+    "train_csv_path": "../data/labels/inventory_labels_bag.csv",
+    "val_test_csv_path": "../data/labels/inventory_labels_test_bag.csv",
+    "train_image_dir": "..\\visual_inventory_data",
+    "val_test_image_dir": "..\\visual_inventory_data_test",
+    "num_rows": 5000,
+    "num_classes": 9,
+    "classes": [
+      "bag",
+      "cup",
+      "book",
+      "laptop",
+      "keyboard",
+      "cell phone",
+      "bottle",
+      "mouse",
+      "umbrella"
+    ],
+    "train_size": 5000,
+    "val_size": 862,
+    "test_size": 590,
+    "valtest_split_test_size": 0.4,
+    "batch_size": 32,
+    "epochs": 15,
+    "learning_rate": 0.0001,
+    "weight_decay": 0.001,
+    "dropout": null,
+    "num_trainable_params": null,
+    "num_frozen_params": null,
+    "trainable_param_names": null,
+    "frozen_param_names": null,
+    "train_losses": [
+      0.8323441519737244,
+      0.8273082776069641,
+      0.8200125207901001,
+      0.8182979817390442,
+      0.8117300810813903,
+      0.8120540289878845,
+      0.809992112159729,
+      0.7949963712692261,
+      0.7999040770530701,
+      0.795504442691803,
+      0.801913625240326,
+      0.7896769652366639,
+      0.7944839434623718,
+      0.7907203311920166,
+      0.7870516729354858
+    ],
+    "val_losses": [
+      0.820469125173986,
+      0.8090280620381236,
+      0.8099338933825493,
+      0.8106501558795571,
+      0.7989061158150434,
+      0.7994615593925118,
+      0.7986274277791381,
+      0.7943799113854766,
+      0.7941562151536345,
+      0.7905500819906592,
+      0.7918178904801607,
+      0.7909407066181302,
+      0.7811391036957502,
+      0.7863530172035098,
+      0.7798227230086923
+    ],
+    "best_thresholds": null,
+    "final_macro_f1": 0.5290442786713231,
+    "final_micro_f1": 0.5520052168242582,
+    "per_class_metrics": [
+      {
+        "class": "bag",
+        "precision": 0.6388384754990926,
+        "recall": 0.8073394495412844,
+        "f1": 0.713272543059777,
+        "support": 436
+      },
+      {
+        "class": "cup",
+        "precision": 0.5363790186125211,
+        "recall": 0.8128205128205128,
+        "f1": 0.6462793068297655,
+        "support": 390
+      },
+      {
+        "class": "laptop",
+        "precision": 0.4944649446494465,
+        "recall": 0.73224043715847,
+        "f1": 0.5903083700440529,
+        "support": 183
+      },
+      {
+        "class": "bottle",
+        "precision": 0.4440894568690096,
+        "recall": 0.7335092348284961,
+        "f1": 0.5532338308457712,
+        "support": 379
+      },
+      {
+        "class": "umbrella",
+        "precision": 0.3547619047619048,
+        "recall": 0.8563218390804598,
+        "f1": 0.5016835016835017,
+        "support": 174
+      },
+      {
+        "class": "keyboard",
+        "precision": 0.3190789473684211,
+        "recall": 0.9150943396226415,
+        "f1": 0.47317073170731705,
+        "support": 106
+      },
+      {
+        "class": "book",
+        "precision": 0.3287981859410431,
+        "recall": 0.69377990430622,
+        "f1": 0.4461538461538462,
+        "support": 209
+      },
+      {
+        "class": "cell phone",
+        "precision": 0.31125827814569534,
+        "recall": 0.6588785046728972,
+        "f1": 0.42278860569715143,
+        "support": 214
+      },
+      {
+        "class": "mouse",
+        "precision": 0.2684563758389262,
+        "recall": 0.9090909090909091,
+        "f1": 0.41450777202072536,
+        "support": 88
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-04-13T13:20:05.752064",
+    "seed": 42,
+    "device": "cuda",
+    "train_csv_path": "../data/labels/inventory_labels_bag.csv",
+    "val_test_csv_path": "../data/labels/inventory_labels_test_bag.csv",
+    "train_image_dir": "..\\visual_inventory_data",
+    "val_test_image_dir": "..\\visual_inventory_data_test",
+    "num_rows": 5000,
+    "num_classes": 9,
+    "classes": [
+      "bag",
+      "laptop",
+      "cell phone",
+      "umbrella",
+      "bottle",
+      "mouse",
+      "keyboard",
+      "book",
+      "cup"
+    ],
+    "train_size": 5000,
+    "val_size": 862,
+    "test_size": 590,
+    "valtest_split_test_size": 0.4,
+    "batch_size": 32,
+    "epochs": 5,
+    "learning_rate": 0.0001,
+    "weight_decay": 0.001,
+    "dropout": null,
+    "num_trainable_params": null,
+    "num_frozen_params": null,
+    "trainable_param_names": null,
+    "frozen_param_names": null,
+    "train_losses": [
+      1.0946596568557108,
+      1.0025619294992678,
+      0.9483213379124927,
+      0.9093558719963025,
+      0.8873667671422291
+    ],
+    "val_losses": [
+      0.9469805183234038,
+      0.870016285666713,
+      0.8270256121953329,
+      0.8102971381611295,
+      0.7615982051248904
+    ],
+    "best_thresholds": null,
+    "final_macro_f1": 0.484688309388967,
+    "final_micro_f1": 0.511558538404176,
+    "per_class_metrics": [
+      {
+        "class": "bag",
+        "precision": 0.602510460251046,
+        "recall": 0.8275862068965517,
+        "f1": 0.6973365617433414,
+        "support": 174
+      },
+      {
+        "class": "cup",
+        "precision": 0.5061728395061729,
+        "recall": 0.7884615384615384,
+        "f1": 0.6165413533834586,
+        "support": 156
+      },
+      {
+        "class": "bottle",
+        "precision": 0.4050179211469534,
+        "recall": 0.743421052631579,
+        "f1": 0.5243619489559165,
+        "support": 152
+      },
+      {
+        "class": "laptop",
+        "precision": 0.34146341463414637,
+        "recall": 0.7671232876712328,
+        "f1": 0.47257383966244726,
+        "support": 73
+      },
+      {
+        "class": "umbrella",
+        "precision": 0.3240223463687151,
+        "recall": 0.8285714285714286,
+        "f1": 0.46586345381526106,
+        "support": 70
+      },
+      {
+        "class": "book",
+        "precision": 0.3055555555555556,
+        "recall": 0.7857142857142857,
+        "f1": 0.44,
+        "support": 84
+      },
+      {
+        "class": "cell phone",
+        "precision": 0.29381443298969073,
+        "recall": 0.6627906976744186,
+        "f1": 0.40714285714285714,
+        "support": 86
+      },
+      {
+        "class": "keyboard",
+        "precision": 0.25333333333333335,
+        "recall": 0.9047619047619048,
+        "f1": 0.3958333333333333,
+        "support": 42
+      },
+      {
+        "class": "mouse",
+        "precision": 0.21232876712328766,
+        "recall": 0.8857142857142857,
+        "f1": 0.3425414364640884,
+        "support": 35
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-04-13T14:38:08.492985",
+    "seed": 42,
+    "device": "cuda",
+    "train_csv_path": "../data/labels/inventory_labels_bag.csv",
+    "val_test_csv_path": "../data/labels/inventory_labels_test_bag.csv",
+    "train_image_dir": "..\\visual_inventory_data",
+    "val_test_image_dir": "..\\visual_inventory_data_test",
+    "num_rows": 5000,
+    "num_classes": 9,
+    "classes": [
+      "bag",
+      "laptop",
+      "cell phone",
+      "umbrella",
+      "bottle",
+      "mouse",
+      "keyboard",
+      "book",
+      "cup"
+    ],
+    "train_size": 5000,
+    "val_size": 862,
+    "test_size": 590,
+    "valtest_split_test_size": 0.4,
+    "batch_size": 32,
+    "epochs": 5,
+    "learning_rate": 0.0001,
+    "weight_decay": 0.001,
+    "dropout": null,
+    "num_trainable_params": null,
+    "num_frozen_params": null,
+    "trainable_param_names": null,
+    "frozen_param_names": null,
+    "train_losses": [
+      0.8251395388773293,
+      0.6877006949133174,
+      0.6134883453891535,
+      0.5483776087973528,
+      0.4870352483099433
+    ],
+    "val_losses": [
+      0.6524307010350404,
+      0.6180566549301147,
+      0.640972720252143,
+      0.650854824869721,
+      0.6848998235331641
+    ],
+    "best_thresholds": null,
+    "final_macro_f1": 0.6038929272024172,
+    "final_micro_f1": 0.5980437820214253,
+    "per_class_metrics": [
+      {
+        "class": "bag",
+        "precision": 0.5863453815261044,
+        "recall": 0.8390804597701149,
+        "f1": 0.6903073286052009,
+        "support": 174
+      },
+      {
+        "class": "laptop",
+        "precision": 0.627906976744186,
+        "recall": 0.7397260273972602,
+        "f1": 0.6792452830188679,
+        "support": 73
+      },
+      {
+        "class": "mouse",
+        "precision": 0.5471698113207547,
+        "recall": 0.8285714285714286,
+        "f1": 0.6590909090909091,
+        "support": 35
+      },
+      {
+        "class": "umbrella",
+        "precision": 0.5617977528089888,
+        "recall": 0.7142857142857143,
+        "f1": 0.6289308176100629,
+        "support": 70
+      },
+      {
+        "class": "keyboard",
+        "precision": 0.5,
+        "recall": 0.8333333333333334,
+        "f1": 0.625,
+        "support": 42
+      },
+      {
+        "class": "cup",
+        "precision": 0.5786516853932584,
+        "recall": 0.6602564102564102,
+        "f1": 0.6167664670658682,
+        "support": 156
+      },
+      {
+        "class": "bottle",
+        "precision": 0.5649717514124294,
+        "recall": 0.6578947368421053,
+        "f1": 0.60790273556231,
+        "support": 152
+      },
+      {
+        "class": "book",
+        "precision": 0.38181818181818183,
+        "recall": 0.75,
+        "f1": 0.5060240963855421,
+        "support": 84
+      },
+      {
+        "class": "cell phone",
+        "precision": 0.2980769230769231,
+        "recall": 0.7209302325581395,
+        "f1": 0.4217687074829932,
+        "support": 86
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-04-13T14:56:56.598257",
+    "seed": 42,
+    "device": "cuda",
+    "train_csv_path": "../data/labels/inventory_labels_bag.csv",
+    "val_test_csv_path": "../data/labels/inventory_labels_test_bag.csv",
+    "train_image_dir": "..\\visual_inventory_data",
+    "val_test_image_dir": "..\\visual_inventory_data_test",
+    "num_rows": 5000,
+    "num_classes": 9,
+    "classes": [
+      "bag",
+      "laptop",
+      "cell phone",
+      "umbrella",
+      "bottle",
+      "mouse",
+      "keyboard",
+      "book",
+      "cup"
+    ],
+    "train_size": 5000,
+    "val_size": 862,
+    "test_size": 590,
+    "valtest_split_test_size": 0.4,
+    "batch_size": 32,
+    "epochs": 5,
+    "learning_rate": 0.0001,
+    "weight_decay": 0.001,
+    "dropout": null,
+    "num_trainable_params": 10498057,
+    "num_frozen_params": 683072,
+    "trainable_param_names": [
+      "layer3.0.conv1.weight",
+      "layer3.0.bn1.weight",
+      "layer3.0.bn1.bias",
+      "layer3.0.conv2.weight",
+      "layer3.0.bn2.weight",
+      "layer3.0.bn2.bias",
+      "layer3.0.downsample.0.weight",
+      "layer3.0.downsample.1.weight",
+      "layer3.0.downsample.1.bias",
+      "layer3.1.conv1.weight",
+      "layer3.1.bn1.weight",
+      "layer3.1.bn1.bias",
+      "layer3.1.conv2.weight",
+      "layer3.1.bn2.weight",
+      "layer3.1.bn2.bias",
+      "layer4.0.conv1.weight",
+      "layer4.0.bn1.weight",
+      "layer4.0.bn1.bias",
+      "layer4.0.conv2.weight",
+      "layer4.0.bn2.weight",
+      "layer4.0.bn2.bias",
+      "layer4.0.downsample.0.weight",
+      "layer4.0.downsample.1.weight",
+      "layer4.0.downsample.1.bias",
+      "layer4.1.conv1.weight",
+      "layer4.1.bn1.weight",
+      "layer4.1.bn1.bias",
+      "layer4.1.conv2.weight",
+      "layer4.1.bn2.weight",
+      "layer4.1.bn2.bias",
+      "fc.weight",
+      "fc.bias"
+    ],
+    "frozen_param_names": [
+      "conv1.weight",
+      "bn1.weight",
+      "bn1.bias",
+      "layer1.0.conv1.weight",
+      "layer1.0.bn1.weight",
+      "layer1.0.bn1.bias",
+      "layer1.0.conv2.weight",
+      "layer1.0.bn2.weight",
+      "layer1.0.bn2.bias",
+      "layer1.1.conv1.weight",
+      "layer1.1.bn1.weight",
+      "layer1.1.bn1.bias",
+      "layer1.1.conv2.weight",
+      "layer1.1.bn2.weight",
+      "layer1.1.bn2.bias",
+      "layer2.0.conv1.weight",
+      "layer2.0.bn1.weight",
+      "layer2.0.bn1.bias",
+      "layer2.0.conv2.weight",
+      "layer2.0.bn2.weight",
+      "layer2.0.bn2.bias",
+      "layer2.0.downsample.0.weight",
+      "layer2.0.downsample.1.weight",
+      "layer2.0.downsample.1.bias",
+      "layer2.1.conv1.weight",
+      "layer2.1.bn1.weight",
+      "layer2.1.bn1.bias",
+      "layer2.1.conv2.weight",
+      "layer2.1.bn2.weight",
+      "layer2.1.bn2.bias"
+    ],
+    "train_losses": [
+      0.8251395388773293,
+      0.6877006949133174,
+      0.6134883453891535,
+      0.5483776087973528,
+      0.4870352483099433
+    ],
+    "val_losses": [
+      0.6524307010350404,
+      0.6180566549301147,
+      0.640972720252143,
+      0.650854824869721,
+      0.6848998235331641
+    ],
+    "best_thresholds": null,
+    "final_macro_f1": 0.6038929272024172,
+    "final_micro_f1": 0.5980437820214253,
+    "per_class_metrics": [
+      {
+        "class": "bag",
+        "precision": 0.5863453815261044,
+        "recall": 0.8390804597701149,
+        "f1": 0.6903073286052009,
+        "support": 174
+      },
+      {
+        "class": "laptop",
+        "precision": 0.627906976744186,
+        "recall": 0.7397260273972602,
+        "f1": 0.6792452830188679,
+        "support": 73
+      },
+      {
+        "class": "mouse",
+        "precision": 0.5471698113207547,
+        "recall": 0.8285714285714286,
+        "f1": 0.6590909090909091,
+        "support": 35
+      },
+      {
+        "class": "umbrella",
+        "precision": 0.5617977528089888,
+        "recall": 0.7142857142857143,
+        "f1": 0.6289308176100629,
+        "support": 70
+      },
+      {
+        "class": "keyboard",
+        "precision": 0.5,
+        "recall": 0.8333333333333334,
+        "f1": 0.625,
+        "support": 42
+      },
+      {
+        "class": "cup",
+        "precision": 0.5786516853932584,
+        "recall": 0.6602564102564102,
+        "f1": 0.6167664670658682,
+        "support": 156
+      },
+      {
+        "class": "bottle",
+        "precision": 0.5649717514124294,
+        "recall": 0.6578947368421053,
+        "f1": 0.60790273556231,
+        "support": 152
+      },
+      {
+        "class": "book",
+        "precision": 0.38181818181818183,
+        "recall": 0.75,
+        "f1": 0.5060240963855421,
+        "support": 84
+      },
+      {
+        "class": "cell phone",
+        "precision": 0.2980769230769231,
+        "recall": 0.7209302325581395,
+        "f1": 0.4217687074829932,
+        "support": 86
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-04-13T15:14:16.276622",
+    "seed": 42,
+    "device": "cuda",
+    "train_csv_path": "../data/labels/inventory_labels_bag.csv",
+    "val_test_csv_path": "../data/labels/inventory_labels_test_bag.csv",
+    "train_image_dir": "..\\visual_inventory_data",
+    "val_test_image_dir": "..\\visual_inventory_data_test",
+    "num_rows": 5000,
+    "num_classes": 9,
+    "classes": [
+      "bag",
+      "laptop",
+      "cell phone",
+      "umbrella",
+      "bottle",
+      "mouse",
+      "keyboard",
+      "book",
+      "cup"
+    ],
+    "train_size": 5000,
+    "val_size": 862,
+    "test_size": 590,
+    "valtest_split_test_size": 0.4,
+    "batch_size": 32,
+    "epochs": 5,
+    "learning_rate": 0.0001,
+    "weight_decay": 0.001,
+    "dropout": null,
+    "num_trainable_params": 8398345,
+    "num_frozen_params": 2782784,
+    "trainable_param_names": [
+      "layer4.0.conv1.weight",
+      "layer4.0.bn1.weight",
+      "layer4.0.bn1.bias",
+      "layer4.0.conv2.weight",
+      "layer4.0.bn2.weight",
+      "layer4.0.bn2.bias",
+      "layer4.0.downsample.0.weight",
+      "layer4.0.downsample.1.weight",
+      "layer4.0.downsample.1.bias",
+      "layer4.1.conv1.weight",
+      "layer4.1.bn1.weight",
+      "layer4.1.bn1.bias",
+      "layer4.1.conv2.weight",
+      "layer4.1.bn2.weight",
+      "layer4.1.bn2.bias",
+      "fc.weight",
+      "fc.bias"
+    ],
+    "frozen_param_names": [
+      "conv1.weight",
+      "bn1.weight",
+      "bn1.bias",
+      "layer1.0.conv1.weight",
+      "layer1.0.bn1.weight",
+      "layer1.0.bn1.bias",
+      "layer1.0.conv2.weight",
+      "layer1.0.bn2.weight",
+      "layer1.0.bn2.bias",
+      "layer1.1.conv1.weight",
+      "layer1.1.bn1.weight",
+      "layer1.1.bn1.bias",
+      "layer1.1.conv2.weight",
+      "layer1.1.bn2.weight",
+      "layer1.1.bn2.bias",
+      "layer2.0.conv1.weight",
+      "layer2.0.bn1.weight",
+      "layer2.0.bn1.bias",
+      "layer2.0.conv2.weight",
+      "layer2.0.bn2.weight",
+      "layer2.0.bn2.bias",
+      "layer2.0.downsample.0.weight",
+      "layer2.0.downsample.1.weight",
+      "layer2.0.downsample.1.bias",
+      "layer2.1.conv1.weight",
+      "layer2.1.bn1.weight",
+      "layer2.1.bn1.bias",
+      "layer2.1.conv2.weight",
+      "layer2.1.bn2.weight",
+      "layer2.1.bn2.bias",
+      "layer3.0.conv1.weight",
+      "layer3.0.bn1.weight",
+      "layer3.0.bn1.bias",
+      "layer3.0.conv2.weight",
+      "layer3.0.bn2.weight",
+      "layer3.0.bn2.bias",
+      "layer3.0.downsample.0.weight",
+      "layer3.0.downsample.1.weight",
+      "layer3.0.downsample.1.bias",
+      "layer3.1.conv1.weight",
+      "layer3.1.bn1.weight",
+      "layer3.1.bn1.bias",
+      "layer3.1.conv2.weight",
+      "layer3.1.bn2.weight",
+      "layer3.1.bn2.bias"
+    ],
+    "train_losses": [
+      0.834568183513204,
+      0.7044756351762517,
+      0.6391863409121326,
+      0.5857662647772747,
+      0.5332144523502156
+    ],
+    "val_losses": [
+      0.657486351551833,
+      0.6266718098410854,
+      0.628419409195582,
+      0.6498451674426043,
+      0.6482659942573972
+    ],
+    "best_thresholds": null,
+    "final_macro_f1": 0.613115144457593,
+    "final_micro_f1": 0.6075022872827082,
+    "per_class_metrics": [
+      {
+        "class": "bag",
+        "precision": 0.5943775100401606,
+        "recall": 0.8505747126436781,
+        "f1": 0.6997635933806147,
+        "support": 174
+      },
+      {
+        "class": "mouse",
+        "precision": 0.58,
+        "recall": 0.8285714285714286,
+        "f1": 0.6823529411764706,
+        "support": 35
+      },
+      {
+        "class": "umbrella",
+        "precision": 0.57,
+        "recall": 0.8142857142857143,
+        "f1": 0.6705882352941176,
+        "support": 70
+      },
+      {
+        "class": "keyboard",
+        "precision": 0.5384615384615384,
+        "recall": 0.8333333333333334,
+        "f1": 0.6542056074766355,
+        "support": 42
+      },
+      {
+        "class": "laptop",
+        "precision": 0.5638297872340425,
+        "recall": 0.726027397260274,
+        "f1": 0.6347305389221557,
+        "support": 73
+      },
+      {
+        "class": "cup",
+        "precision": 0.5706806282722513,
+        "recall": 0.6987179487179487,
+        "f1": 0.6282420749279539,
+        "support": 156
+      },
+      {
+        "class": "bottle",
+        "precision": 0.4935064935064935,
+        "recall": 0.75,
+        "f1": 0.5953002610966057,
+        "support": 152
+      },
+      {
+        "class": "book",
+        "precision": 0.4161073825503356,
+        "recall": 0.7380952380952381,
+        "f1": 0.5321888412017167,
+        "support": 84
+      },
+      {
+        "class": "cell phone",
+        "precision": 0.3081081081081081,
+        "recall": 0.6627906976744186,
+        "f1": 0.42066420664206644,
+        "support": 86
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-04-13T15:29:09.670678",
+    "seed": 42,
+    "device": "cuda",
+    "train_csv_path": "../data/labels/inventory_labels_bag.csv",
+    "val_test_csv_path": "../data/labels/inventory_labels_test_bag.csv",
+    "train_image_dir": "..\\visual_inventory_data",
+    "val_test_image_dir": "..\\visual_inventory_data_test",
+    "num_rows": 5000,
+    "num_classes": 9,
+    "classes": [
+      "bag",
+      "laptop",
+      "cell phone",
+      "umbrella",
+      "bottle",
+      "mouse",
+      "keyboard",
+      "book",
+      "cup"
+    ],
+    "train_size": 5000,
+    "val_size": 862,
+    "test_size": 590,
+    "valtest_split_test_size": 0.4,
+    "batch_size": 32,
+    "epochs": 5,
+    "learning_rate": 0.0001,
+    "weight_decay": 0.001,
+    "dropout": 0.5,
+    "num_trainable_params": 8398345,
+    "num_frozen_params": 2782784,
+    "trainable_param_names": [
+      "layer4.0.conv1.weight",
+      "layer4.0.bn1.weight",
+      "layer4.0.bn1.bias",
+      "layer4.0.conv2.weight",
+      "layer4.0.bn2.weight",
+      "layer4.0.bn2.bias",
+      "layer4.0.downsample.0.weight",
+      "layer4.0.downsample.1.weight",
+      "layer4.0.downsample.1.bias",
+      "layer4.1.conv1.weight",
+      "layer4.1.bn1.weight",
+      "layer4.1.bn1.bias",
+      "layer4.1.conv2.weight",
+      "layer4.1.bn2.weight",
+      "layer4.1.bn2.bias",
+      "fc.1.weight",
+      "fc.1.bias"
+    ],
+    "frozen_param_names": [
+      "conv1.weight",
+      "bn1.weight",
+      "bn1.bias",
+      "layer1.0.conv1.weight",
+      "layer1.0.bn1.weight",
+      "layer1.0.bn1.bias",
+      "layer1.0.conv2.weight",
+      "layer1.0.bn2.weight",
+      "layer1.0.bn2.bias",
+      "layer1.1.conv1.weight",
+      "layer1.1.bn1.weight",
+      "layer1.1.bn1.bias",
+      "layer1.1.conv2.weight",
+      "layer1.1.bn2.weight",
+      "layer1.1.bn2.bias",
+      "layer2.0.conv1.weight",
+      "layer2.0.bn1.weight",
+      "layer2.0.bn1.bias",
+      "layer2.0.conv2.weight",
+      "layer2.0.bn2.weight",
+      "layer2.0.bn2.bias",
+      "layer2.0.downsample.0.weight",
+      "layer2.0.downsample.1.weight",
+      "layer2.0.downsample.1.bias",
+      "layer2.1.conv1.weight",
+      "layer2.1.bn1.weight",
+      "layer2.1.bn1.bias",
+      "layer2.1.conv2.weight",
+      "layer2.1.bn2.weight",
+      "layer2.1.bn2.bias",
+      "layer3.0.conv1.weight",
+      "layer3.0.bn1.weight",
+      "layer3.0.bn1.bias",
+      "layer3.0.conv2.weight",
+      "layer3.0.bn2.weight",
+      "layer3.0.bn2.bias",
+      "layer3.0.downsample.0.weight",
+      "layer3.0.downsample.1.weight",
+      "layer3.0.downsample.1.bias",
+      "layer3.1.conv1.weight",
+      "layer3.1.bn1.weight",
+      "layer3.1.bn1.bias",
+      "layer3.1.conv2.weight",
+      "layer3.1.bn2.weight",
+      "layer3.1.bn2.bias"
+    ],
+    "train_losses": [
+      0.9104926863293739,
+      0.7734299332472929,
+      0.7105685197244025,
+      0.6657048520768524,
+      0.6246250486297972
+    ],
+    "val_losses": [
+      0.6769090361065335,
+      0.6395332217216492,
+      0.6303234806767216,
+      0.6432518859704336,
+      0.6244896363329004
+    ],
+    "best_thresholds": null,
+    "final_macro_f1": 0.6084177074551121,
+    "final_micro_f1": 0.6095921111609144,
+    "per_class_metrics": [
+      {
+        "class": "bag",
+        "precision": 0.6313559322033898,
+        "recall": 0.8563218390804598,
+        "f1": 0.7268292682926829,
+        "support": 174
+      },
+      {
+        "class": "keyboard",
+        "precision": 0.5211267605633803,
+        "recall": 0.8809523809523809,
+        "f1": 0.6548672566371682,
+        "support": 42
+      },
+      {
+        "class": "mouse",
+        "precision": 0.5272727272727272,
+        "recall": 0.8285714285714286,
+        "f1": 0.6444444444444445,
+        "support": 35
+      },
+      {
+        "class": "laptop",
+        "precision": 0.5777777777777777,
+        "recall": 0.7123287671232876,
+        "f1": 0.6380368098159509,
+        "support": 73
+      },
+      {
+        "class": "cup",
+        "precision": 0.5566502463054187,
+        "recall": 0.7243589743589743,
+        "f1": 0.6295264623955432,
+        "support": 156
+      },
+      {
+        "class": "umbrella",
+        "precision": 0.4552238805970149,
+        "recall": 0.8714285714285714,
+        "f1": 0.5980392156862745,
+        "support": 70
+      },
+      {
+        "class": "bottle",
+        "precision": 0.4830508474576271,
+        "recall": 0.75,
+        "f1": 0.5876288659793815,
+        "support": 152
+      },
+      {
+        "class": "book",
+        "precision": 0.42038216560509556,
+        "recall": 0.7857142857142857,
+        "f1": 0.5477178423236515,
+        "support": 84
+      },
+      {
+        "class": "cell phone",
+        "precision": 0.3333333333333333,
+        "recall": 0.686046511627907,
+        "f1": 0.44866920152091255,
+        "support": 86
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-04-13T15:43:16.350293",
+    "seed": 42,
+    "device": "cuda",
+    "train_csv_path": "../data/labels/inventory_labels_bag.csv",
+    "val_test_csv_path": "../data/labels/inventory_labels_test_bag.csv",
+    "train_image_dir": "..\\visual_inventory_data",
+    "val_test_image_dir": "..\\visual_inventory_data_test",
+    "num_rows": 5000,
+    "num_classes": 9,
+    "classes": [
+      "bag",
+      "laptop",
+      "cell phone",
+      "umbrella",
+      "bottle",
+      "mouse",
+      "keyboard",
+      "book",
+      "cup"
+    ],
+    "train_size": 5000,
+    "val_size": 862,
+    "test_size": 590,
+    "valtest_split_test_size": 0.4,
+    "batch_size": 32,
+    "epochs": 5,
+    "learning_rate": 0.0001,
+    "weight_decay": 0.01,
+    "dropout": 0.5,
+    "num_trainable_params": 8398345,
+    "num_frozen_params": 2782784,
+    "trainable_param_names": [
+      "layer4.0.conv1.weight",
+      "layer4.0.bn1.weight",
+      "layer4.0.bn1.bias",
+      "layer4.0.conv2.weight",
+      "layer4.0.bn2.weight",
+      "layer4.0.bn2.bias",
+      "layer4.0.downsample.0.weight",
+      "layer4.0.downsample.1.weight",
+      "layer4.0.downsample.1.bias",
+      "layer4.1.conv1.weight",
+      "layer4.1.bn1.weight",
+      "layer4.1.bn1.bias",
+      "layer4.1.conv2.weight",
+      "layer4.1.bn2.weight",
+      "layer4.1.bn2.bias",
+      "fc.1.weight",
+      "fc.1.bias"
+    ],
+    "frozen_param_names": [
+      "conv1.weight",
+      "bn1.weight",
+      "bn1.bias",
+      "layer1.0.conv1.weight",
+      "layer1.0.bn1.weight",
+      "layer1.0.bn1.bias",
+      "layer1.0.conv2.weight",
+      "layer1.0.bn2.weight",
+      "layer1.0.bn2.bias",
+      "layer1.1.conv1.weight",
+      "layer1.1.bn1.weight",
+      "layer1.1.bn1.bias",
+      "layer1.1.conv2.weight",
+      "layer1.1.bn2.weight",
+      "layer1.1.bn2.bias",
+      "layer2.0.conv1.weight",
+      "layer2.0.bn1.weight",
+      "layer2.0.bn1.bias",
+      "layer2.0.conv2.weight",
+      "layer2.0.bn2.weight",
+      "layer2.0.bn2.bias",
+      "layer2.0.downsample.0.weight",
+      "layer2.0.downsample.1.weight",
+      "layer2.0.downsample.1.bias",
+      "layer2.1.conv1.weight",
+      "layer2.1.bn1.weight",
+      "layer2.1.bn1.bias",
+      "layer2.1.conv2.weight",
+      "layer2.1.bn2.weight",
+      "layer2.1.bn2.bias",
+      "layer3.0.conv1.weight",
+      "layer3.0.bn1.weight",
+      "layer3.0.bn1.bias",
+      "layer3.0.conv2.weight",
+      "layer3.0.bn2.weight",
+      "layer3.0.bn2.bias",
+      "layer3.0.downsample.0.weight",
+      "layer3.0.downsample.1.weight",
+      "layer3.0.downsample.1.bias",
+      "layer3.1.conv1.weight",
+      "layer3.1.bn1.weight",
+      "layer3.1.bn1.bias",
+      "layer3.1.conv2.weight",
+      "layer3.1.bn2.weight",
+      "layer3.1.bn2.bias"
+    ],
+    "train_losses": [
+      0.9104896483907274,
+      0.7734152788569213,
+      0.7105279160532981,
+      0.6657915274808361,
+      0.6245219694201354
+    ],
+    "val_losses": [
+      0.6770254804028405,
+      0.6394694745540619,
+      0.6305732175155923,
+      0.6427876022126939,
+      0.6242205500602722
+    ],
+    "best_thresholds": null,
+    "final_macro_f1": 0.6092009033874921,
+    "final_micro_f1": 0.6108861898335582,
+    "per_class_metrics": [
+      {
+        "class": "bag",
+        "precision": 0.6286919831223629,
+        "recall": 0.8563218390804598,
+        "f1": 0.7250608272506083,
+        "support": 174
+      },
+      {
+        "class": "keyboard",
+        "precision": 0.5211267605633803,
+        "recall": 0.8809523809523809,
+        "f1": 0.6548672566371682,
+        "support": 42
+      },
+      {
+        "class": "laptop",
+        "precision": 0.5777777777777777,
+        "recall": 0.7123287671232876,
+        "f1": 0.6380368098159509,
+        "support": 73
+      },
+      {
+        "class": "mouse",
+        "precision": 0.5178571428571429,
+        "recall": 0.8285714285714286,
+        "f1": 0.6373626373626373,
+        "support": 35
+      },
+      {
+        "class": "cup",
+        "precision": 0.5544554455445545,
+        "recall": 0.717948717948718,
+        "f1": 0.6256983240223464,
+        "support": 156
+      },
+      {
+        "class": "umbrella",
+        "precision": 0.45864661654135336,
+        "recall": 0.8714285714285714,
+        "f1": 0.6009852216748769,
+        "support": 70
+      },
+      {
+        "class": "bottle",
+        "precision": 0.4830508474576271,
+        "recall": 0.75,
+        "f1": 0.5876288659793815,
+        "support": 152
+      },
+      {
+        "class": "book",
+        "precision": 0.4342105263157895,
+        "recall": 0.7857142857142857,
+        "f1": 0.559322033898305,
+        "support": 84
+      },
+      {
+        "class": "cell phone",
+        "precision": 0.3390804597701149,
+        "recall": 0.686046511627907,
+        "f1": 0.45384615384615384,
+        "support": 86
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-04-13T20:01:56.223787",
+    "seed": 42,
+    "device": "cuda",
+    "train_csv_path": "../data/labels/inventory_labels_bag.csv",
+    "val_test_csv_path": "../data/labels/inventory_labels_test_bag.csv",
+    "train_image_dir": "..\\visual_inventory_data",
+    "val_test_image_dir": "..\\visual_inventory_data_test",
+    "num_rows": 5000,
+    "num_classes": 9,
+    "classes": [
+      "bag",
+      "laptop",
+      "cell phone",
+      "umbrella",
+      "bottle",
+      "mouse",
+      "keyboard",
+      "book",
+      "cup"
+    ],
+    "train_size": 5000,
+    "val_size": 862,
+    "test_size": 590,
+    "valtest_split_test_size": 0.4,
+    "batch_size": 32,
+    "epochs": 5,
+    "learning_rate": 0.0001,
+    "weight_decay": 0.01,
+    "dropout": 0.5,
+    "num_trainable_params": 8398345,
+    "num_frozen_params": 2782784,
+    "trainable_param_names": [
+      "layer4.0.conv1.weight",
+      "layer4.0.bn1.weight",
+      "layer4.0.bn1.bias",
+      "layer4.0.conv2.weight",
+      "layer4.0.bn2.weight",
+      "layer4.0.bn2.bias",
+      "layer4.0.downsample.0.weight",
+      "layer4.0.downsample.1.weight",
+      "layer4.0.downsample.1.bias",
+      "layer4.1.conv1.weight",
+      "layer4.1.bn1.weight",
+      "layer4.1.bn1.bias",
+      "layer4.1.conv2.weight",
+      "layer4.1.bn2.weight",
+      "layer4.1.bn2.bias",
+      "fc.1.weight",
+      "fc.1.bias"
+    ],
+    "frozen_param_names": [
+      "conv1.weight",
+      "bn1.weight",
+      "bn1.bias",
+      "layer1.0.conv1.weight",
+      "layer1.0.bn1.weight",
+      "layer1.0.bn1.bias",
+      "layer1.0.conv2.weight",
+      "layer1.0.bn2.weight",
+      "layer1.0.bn2.bias",
+      "layer1.1.conv1.weight",
+      "layer1.1.bn1.weight",
+      "layer1.1.bn1.bias",
+      "layer1.1.conv2.weight",
+      "layer1.1.bn2.weight",
+      "layer1.1.bn2.bias",
+      "layer2.0.conv1.weight",
+      "layer2.0.bn1.weight",
+      "layer2.0.bn1.bias",
+      "layer2.0.conv2.weight",
+      "layer2.0.bn2.weight",
+      "layer2.0.bn2.bias",
+      "layer2.0.downsample.0.weight",
+      "layer2.0.downsample.1.weight",
+      "layer2.0.downsample.1.bias",
+      "layer2.1.conv1.weight",
+      "layer2.1.bn1.weight",
+      "layer2.1.bn1.bias",
+      "layer2.1.conv2.weight",
+      "layer2.1.bn2.weight",
+      "layer2.1.bn2.bias",
+      "layer3.0.conv1.weight",
+      "layer3.0.bn1.weight",
+      "layer3.0.bn1.bias",
+      "layer3.0.conv2.weight",
+      "layer3.0.bn2.weight",
+      "layer3.0.bn2.bias",
+      "layer3.0.downsample.0.weight",
+      "layer3.0.downsample.1.weight",
+      "layer3.0.downsample.1.bias",
+      "layer3.1.conv1.weight",
+      "layer3.1.bn1.weight",
+      "layer3.1.bn1.bias",
+      "layer3.1.conv2.weight",
+      "layer3.1.bn2.weight",
+      "layer3.1.bn2.bias"
+    ],
+    "train_losses": [
+      0.917674378604646,
+      0.7658182523053163,
+      0.7133074585039905,
+      0.6714501506204058,
+      0.6224004015041764
+    ],
+    "val_losses": [
+      0.6740723230220653,
+      0.6335827884850679,
+      0.6371725179530956,
+      0.6536249098954378,
+      0.63939051606037
+    ],
+    "best_thresholds": {
+      "bag": 0.4199999999999998,
+      "laptop": 0.4999999999999998,
+      "cell phone": 0.8099999999999996,
+      "umbrella": 0.6399999999999997,
+      "bottle": 0.5899999999999997,
+      "mouse": 0.7499999999999997,
+      "keyboard": 0.8499999999999996,
+      "book": 0.7299999999999996,
+      "cup": 0.44999999999999984
+    },
+    "final_macro_f1": 0.6226345930274191,
+    "final_micro_f1": 0.6286594761171033,
+    "per_class_metrics": [
+      {
+        "class": "mouse",
+        "precision": 0.717948717948718,
+        "recall": 0.8,
+        "f1": 0.7567567567567568,
+        "support": 35
+      },
+      {
+        "class": "bag",
+        "precision": 0.6286919831223629,
+        "recall": 0.8563218390804598,
+        "f1": 0.7250608272506083,
+        "support": 174
+      },
+      {
+        "class": "umbrella",
+        "precision": 0.684931506849315,
+        "recall": 0.7142857142857143,
+        "f1": 0.6993006993006993,
+        "support": 70
+      },
+      {
+        "class": "cup",
+        "precision": 0.5208333333333334,
+        "recall": 0.8012820512820513,
+        "f1": 0.6313131313131313,
+        "support": 156
+      },
+      {
+        "class": "laptop",
+        "precision": 0.5181818181818182,
+        "recall": 0.7808219178082192,
+        "f1": 0.6229508196721312,
+        "support": 73
+      },
+      {
+        "class": "keyboard",
+        "precision": 0.6666666666666666,
+        "recall": 0.5714285714285714,
+        "f1": 0.6153846153846154,
+        "support": 42
+      },
+      {
+        "class": "bottle",
+        "precision": 0.5454545454545454,
+        "recall": 0.631578947368421,
+        "f1": 0.5853658536585366,
+        "support": 152
+      },
+      {
+        "class": "book",
+        "precision": 0.4782608695652174,
+        "recall": 0.6547619047619048,
+        "f1": 0.5527638190954773,
+        "support": 84
+      },
+      {
+        "class": "cell phone",
+        "precision": 0.5714285714285714,
+        "recall": 0.32558139534883723,
+        "f1": 0.4148148148148148,
+        "support": 86
+      }
+    ]
+  }
+]

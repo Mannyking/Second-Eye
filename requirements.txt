@@ -1,8 +1,8 @@
-streamlit
-torch
-torchvision
-Pillow
-python-dotenv
-google-genai
-pandas
-altair
+streamlit==1.56.0
+torch==2.11.0
+torchvision==0.26.0
+Pillow==12.2.0
+python-dotenv==1.2.2
+google-genai==1.73.0
+pandas==2.3.3
+altair==6.0.0

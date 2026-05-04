@@ -16,9 +16,8 @@ venv/
 .env
 
 # Model
-*.pt
+#*.pt
 
 # Operating System
 .DS_Store
 /presentation
-/reports
