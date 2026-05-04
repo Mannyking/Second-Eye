@@ -19,7 +19,7 @@ from utils.report_loader import (
 )
 
 
-st.set_page_config(page_title="Inventory Reports", page_icon=":bar_chart:", layout="wide")
+st.set_page_config(page_title="Second Eye Reports", page_icon=":bar_chart:", layout="wide")
 
 
 def _inject_styles() -> None:

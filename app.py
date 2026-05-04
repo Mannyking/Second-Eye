@@ -6,13 +6,13 @@ from PIL import Image
 
 from llm.gemini import generate_feedback
 from model.inference import InventoryClassifier
-from prompts.presets import PRESET_EXPECTED_ITEMS
+from prompts.presets import PRESET_DESCRIPTIONS, PRESET_EXPECTED_ITEMS
 
 
 load_dotenv()
 
-st.set_page_config(page_title="Inventory Checker", page_icon=":package:", layout="centered")
-st.title("Inventory Checker")
+st.set_page_config(page_title="Second Eye", page_icon=":package:", layout="centered")
+st.title("Second Eye")
 st.caption("Upload an image to detect items, then get contextual feedback.")
 
 ARTIFACT_PATH = Path("best_model_with_thresholds.pt")
@@ -30,6 +30,11 @@ def load_classifier() -> InventoryClassifier:
 classifier: InventoryClassifier = load_classifier()
 
 preset = st.selectbox("Choose a preset", options=list(PRESET_EXPECTED_ITEMS.keys()))
+st.caption(PRESET_DESCRIPTIONS.get(preset, ""))
+st.markdown(
+    f"**Expected items for {preset}:** {', '.join(PRESET_EXPECTED_ITEMS.get(preset, []))}"
+)
+
 uploaded_file = st.file_uploader("Upload an image", type=["jpg", "jpeg", "png", "webp"])
 
 if uploaded_file is not None:
