@@ -3,6 +3,17 @@ PRESET_EXPECTED_ITEMS: dict[str, list[str]] = {
     "Work Session": ["laptop", "mouse", "keyboard", "cup"],
 }
 
+PRESET_DESCRIPTIONS: dict[str, str] = {
+    "School Commute": (
+        "Checks for everyday commute essentials in your bag setup "
+        "(for example: laptop, book, bottle, umbrella)."
+    ),
+    "Work Session": (
+        "Checks for a focused desk/work setup and flags common distractions "
+        "(for example: cell phone, bag, book)."
+    ),
+}
+
 PRESET_PROMPTS: dict[str, str] = {
     "School Commute": (
         "You are a helpful assistant for a student preparing for their commute.\n"
@@ -22,4 +33,3 @@ PRESET_PROMPTS: dict[str, str] = {
         "Keep the tone motivating but direct."
     ),
 }
-
